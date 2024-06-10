@@ -57,9 +57,10 @@
       </nav>
     </div>
   </header>
-  <title>Cadastro de Usuário</title>
+  <title>Cadastre-se</title>
   <main class="">
-    <h1>Cadastro de Usuário</h1>
+      <br><br>
+    <h1>Cadastre-se</h1>
     <form action="cadastro.php" method="post">
 
     <label for="nome"></label><br>
@@ -76,7 +77,10 @@
 
     <label for="senha"></label><br>
     <input type="password" id="csenha" name="csenha" placeholder="Confirmar senha" required><br>
-    <input type="submit" value="Cadastrar"><br>
+    <br>
+
+    <button onclick="window.location.href='login'">Cadastrar</button>
+
     </form>
     </main>
     <?php

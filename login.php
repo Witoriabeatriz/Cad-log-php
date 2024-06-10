@@ -71,8 +71,7 @@
 
     <label for="senha"></label><br>
     <input type="password" id="senha" name="senha" placeholder="Criar senha" required><br>
-
-    
+    <br>
     <input type="submit" value="Logar"><br>
     </form>
     </main>
