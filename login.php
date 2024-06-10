@@ -62,9 +62,6 @@
     <h1>Login</h1>
     <form action="cadastro.php" method="post">
 
-    <label for="nome"></label><br>
-    <input type="text" id="nome" name="nome" placeholder="Nome" required><br>
-
     <label for="email"></label><br>
     <input type="email" id="email" name="email" placeholder="Informar e-mail" required><br>
 
@@ -80,17 +77,15 @@
 // Verifica se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Cria as variáveis que receberão os dados do formulário
-    $nome  = $_POST["nome"];
     $email = $_POST["email"];
     $senha = $_POST["senha"];
 
     // Mostra na página os dados digitados com exceção da senha
-    echo "<h3>Nome: $nome</h3>";
     echo "<h3>Email: $email</h3>";
     echo "<h3>Senha: A senha é secreta</h3>";
 
     // String para receber código SQL para inserção em banco de dados
-    $cad_usuario = "INSERT INTO usuario (nome, email, senha) VALUES ('$nome', '$email', md5('$senha'))";
+    $cad_usuario = "INSERT INTO usuario (email, senha) VALUES ('$email', md5('$senha'))";
 
     // Executa a consulta e verifica se foi bem-sucedida
     if (mysqli_query($conn, $cad_usuario)) {
