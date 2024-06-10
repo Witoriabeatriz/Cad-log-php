@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Cadastro</title>
+    <title>login</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
@@ -57,20 +57,23 @@
       </nav>
     </div>
   </header>
-  <title>Cadastro de Usuário</title>
-  <main class="px-3">
+  <title>Login</title>
+  <main class="">
     <h1>Login</h1>
     <form action="cadastro.php" method="post">
+
     <label for="nome"></label><br>
-    <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
+    <input type="text" id="nome" name="nome" placeholder="Nome" required><br>
 
     <label for="email"></label><br>
-    <input type="email" id="email" name="email" placeholder="E-mail" required><br><br>
+    <input type="email" id="email" name="email" placeholder="Criar e-mail" required><br>
+
 
     <label for="senha"></label><br>
-    <input type="password" id="senha" name="senha" placeholder="Senha" required><br><br>
+    <input type="password" id="senha" name="senha" placeholder="Criar senha" required><br>
 
-    <input type="submit" value="Logar">
+    
+    <input type="submit" value="Logar"><br>
     </form>
     </main>
     <?php
@@ -101,7 +104,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mysqli_close($conn);
 }
 ?>
+<br>
   <footer class="mt-auto text-white-50">
+      <br>
     <p>
         Template obtido no <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a> por <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.<br>
         Projeto criado por <a href="https://github.com/Witoriabeatriz" class="text-white">@Witóriabeatriz</a>.

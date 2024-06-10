@@ -57,7 +57,6 @@
       </nav>
     </div>
   </header>
-  <br><br>
   <title>Cadastro de Usuário</title>
   <main class="">
     <h1>Cadastro de Usuário</h1>
@@ -76,7 +75,7 @@
     <input type="password" id="senha" name="senha" placeholder="Criar senha" required><br>
 
     <label for="senha"></label><br>
-    <input type="password" id="csenha" name="csenha" placeholder="Confirmar senha" required><br><br>
+    <input type="password" id="csenha" name="csenha" placeholder="Confirmar senha" required><br>
     <input type="submit" value="Cadastrar"><br>
     </form>
     </main>
@@ -108,7 +107,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mysqli_close($conn);
 }
 ?>
+<br>
   <footer class="mt-auto text-white-50">
+      <br>
     <p>
         Template obtido no <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a> por <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.<br>
         Projeto criado por <a href="https://github.com/Witoriabeatriz" class="text-white">@Witóriabeatriz</a>.
