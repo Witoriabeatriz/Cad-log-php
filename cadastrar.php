@@ -78,9 +78,7 @@
     <label for="senha"></label><br>
     <input type="password" id="csenha" name="csenha" placeholder="Confirmar senha" required><br>
     <br>
-
-    <button onclick="window.location.href='login'">Cadastrar</button>
-
+    <input type="submit" value="Cadastrar"><br>
     </form>
     </main>
     <?php
