@@ -1,18 +1,18 @@
 <?php
 include('conexao.php');
 
+/*Cria as variáveis que receberão os dados do formulário*/
 $nome  = $_POST["nome"];
 $email = $_POST["email"];
 $senha = $_POST["senha"];
-$opina = $_POST["opina"];
 
+/*Mostra na página os dados digitados com exceção da senha*/
 echo "<h3>nome:   $nome</h3>";
 echo "<h3>email:  $email</h3>";
-echo "<h3>senha:  $senha</h3>";
-echo "<h3>Opina:  $opina</h3></br></br></br>";
+echo "<h3>senha:  A senha é secreta</h3>";
 
-
-$cad_usuario = "INSERT INTO usuario (nome, email, senha, opina) VALUES ('$nome', '$email', '$senha', '$opina')";
+//String para receber código SQL para inserção em banco de dados
+$cad_usuario = "INSERT INTO usuario (nome, email, senha) VALUES ('$nome', '$email', md5('$senha'))";
 
 if (mysqli_query($conn, $cad_usuario)) {
       echo "<h1>Novo cadastro realizado </h1></br>";

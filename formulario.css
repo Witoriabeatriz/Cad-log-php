@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*Formatação de formulário*/
+body{
+	margin: 0;
+	background-color: antiquewhite;
+}
+input{
+	width: calc(100% - 40px);
+	padding: 10px;
+}
+h2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+label{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+textarea{
+	width: calc(100% - 20px);
+	padding: 10px;
+}
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
+h4{
+	text-align: center;
+}
+#botao{
+	text-align: center;
+}
+.btn_enviar{
+	width: 200px;
+	text-align: center;
+   	padding: 15px 20px;
+   	border: 1px solid #eee;
+	border-radius: 6px;
+   	background-color: #FCC302;
+   	font-size: 18px;
+}
