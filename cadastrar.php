@@ -9,7 +9,37 @@
     <title>Cadastro</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
 
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -29,7 +59,7 @@
   </header>
   <title>Cadastro de Usuário</title>
   <main class="px-3">
-    <h4>Cadastro de Usuário</h4>
+    <h1>Cadastro de Usuário</h1>
     <form action="cadastro.php" method="post">
     <label for="nome"></label><br>
     <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
