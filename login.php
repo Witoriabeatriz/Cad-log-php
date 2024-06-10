@@ -66,7 +66,7 @@
     <input type="text" id="nome" name="nome" placeholder="Nome" required><br>
 
     <label for="email"></label><br>
-    <input type="email" id="email" name="email" placeholder="Criar e-mail" required><br>
+    <input type="email" id="email" name="email" placeholder="Informar e-mail" required><br>
 
 
     <label for="senha"></label><br>
