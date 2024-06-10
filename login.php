@@ -52,32 +52,25 @@
       <h3 class="float-md-start mb-0">Witória Beatriz</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link" aria-current="page" href="index.php">Início</a>
-        <a class="nav-link active" href="cadastrar.php">Cadastre-se</a>
-        <a class="nav-link" href="login.php">Login</a>
+        <a class="nav-link" href="cadastrar.php">Cadastre-se</a>
+        <a class="nav-link active" href="login.php">Login</a>
       </nav>
     </div>
   </header>
-  <br><br>
   <title>Cadastro de Usuário</title>
-  <main class="">
-    <h1>Cadastro de Usuário</h1>
+  <main class="px-3">
+    <h1>Login</h1>
     <form action="cadastro.php" method="post">
-
     <label for="nome"></label><br>
-    <input type="text" id="nome" name="nome" placeholder="Nome" required><br>
+    <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
 
     <label for="email"></label><br>
-    <input type="email" id="email" name="email" placeholder="Criar e-mail" required><br>
-
-    <label for="email"></label><br>
-    <input type="email" id="cemail" name="cemail" placeholder="Confirmar e-mail" required><br>
+    <input type="email" id="email" name="email" placeholder="E-mail" required><br><br>
 
     <label for="senha"></label><br>
-    <input type="password" id="senha" name="senha" placeholder="Criar senha" required><br>
+    <input type="password" id="senha" name="senha" placeholder="Senha" required><br><br>
 
-    <label for="senha"></label><br>
-    <input type="password" id="csenha" name="csenha" placeholder="Confirmar senha" required><br><br>
-    <input type="submit" value="Cadastrar"><br>
+    <input type="submit" value="Logar">
     </form>
     </main>
     <?php
