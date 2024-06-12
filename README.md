@@ -1,5 +1,15 @@
 # ATD II - Aplicação de Cadastro e Login
 Este é um pequeno projeto desenvolvido para ensinar conceitos básicos de acesso a banco de dados utilizando PHP como linguagem de back-end. Ele consiste em uma aplicação simples de cadastro e login.
+
+# Índice
+* [Descrição](https://github.com/Witoriabeatriz/Cad-log-php?tab=readme-ov-file#descri%C3%A7%C3%A3o)
+* [Visão geral](https://github.com/Witoriabeatriz/Cad-log-php?tab=readme-ov-file#vis%C3%A3o-geral)
+* [Tecnologias Utilizadas](https://github.com/Witoriabeatriz/Cad-log-php?tab=readme-ov-file#tecnologias-utilizadas)
+* [Início](https://github.com/Witoriabeatriz/Cad-log-php?tab=readme-ov-file#in%C3%ADcio)
+* [Cadastro](https://github.com/Witoriabeatriz/Cad-log-php?tab=readme-ov-file#cadastro)
+* [Login](https://github.com/Witoriabeatriz/Cad-log-php?tab=readme-ov-file#login)
+* [Autores](https://github.com/Witoriabeatriz/Cad-log-php?tab=readme-ov-file#autores)
+
 # Descrição
 Este projeto é uma aplicação web que oferece funcionalidades de cadastro e login. Foi desenvolvido como parte de um curso para ensinar aos estudantes os princípios básicos de interação com bancos de dados utilizando PHP.
 
