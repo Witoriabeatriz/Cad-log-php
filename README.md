@@ -29,4 +29,4 @@ Estrutura do Projeto
 
 # Autores
 
-<img loading="lazy" src="autora.jpg" width=99><br><sub>Witória Beatriz Dos Santos</sub>
+<img loading="lazy" src="autora.jpg" width=115><br><sub>Witória Beatriz Dos Santos</sub>
