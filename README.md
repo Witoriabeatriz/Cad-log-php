@@ -17,3 +17,12 @@ PHP: Processamento dos dados do formulário e interação com o banco de dados.
 
 MySQL: Banco de dados para armazenamento das informações dos usuários.
 Estrutura do Projeto
+
+# Início
+<img src="início.png" alt="início">
+
+# Cadastro
+<img src="cadastro.png" alt="cadastro">
+
+# Login
+<img src="login.png" alt="login">
