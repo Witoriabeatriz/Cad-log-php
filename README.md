@@ -26,3 +26,7 @@ Estrutura do Projeto
 
 # Login
 <img src="login.png" alt="login">
+
+# Autores
+
+<img loading="lazy" src="autora.jpg" width=99><br><sub>Witória Beatriz Dos Santos</sub>
